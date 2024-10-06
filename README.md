@@ -283,21 +283,6 @@
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body">
-                <div class="input-group mb-3">
-                    <div class="input-group-prepend">
-                        <span class="input-group-text">보내는 분 성함</span>
-                    </div>
-                    <input aria-describedby="basic-addon3" class="form-control" id="sender-name" type="text">
-                </div>
-                <div class="input-group">
-                    <textarea aria-label="With textarea" class="form-control" id="sender-message"
-                              placeholder="신랑, 신부에게 선물 예약과 함께 보낼 메시지를 입력해주세요. 이 메시지는 신랑, 신부에게 발송됩니다." rows=4></textarea>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button class="btn btn-primary" id="reserveGiftButton" type="button">예약</button>
-            </div>
         </div>
     </div>
 </div>
