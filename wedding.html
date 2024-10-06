@@ -7,42 +7,43 @@
     <style>
         body {
             font-family: 'Noto Serif KR', serif;
-            background-color: #f0f0f0;
-            color: #333;
+            background-color: #f7f7f7;
             margin: 0;
             padding: 0;
         }
 
-        .invitation {
-            background-color: white;
+        .container {
+            max-width: 800px;
             margin: 50px auto;
-            padding: 40px;
-            width: 60%;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            background-color: white;
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.1);
             border-radius: 15px;
             text-align: center;
         }
 
         h1 {
             font-family: 'Great Vibes', cursive;
-            font-size: 3rem;
+            font-size: 3.5rem;
             color: #d9534f;
+            margin-bottom: 10px;
         }
 
-        .couple-names {
-            font-size: 1.5rem;
+        p {
+            font-size: 1.3rem;
+            color: #555;
+        }
+
+        .couple {
+            font-size: 2rem;
             margin: 20px 0;
         }
 
-        .wedding-details {
+        .details {
             font-size: 1.2rem;
             margin: 30px 0;
             line-height: 1.6;
-        }
-
-        .wedding-details span {
-            display: block;
-            margin: 5px 0;
+            color: #333;
         }
 
         .rsvp {
@@ -52,10 +53,11 @@
         .rsvp a {
             background-color: #d9534f;
             color: white;
-            padding: 10px 20px;
+            padding: 15px 25px;
             text-decoration: none;
-            border-radius: 5px;
-            font-weight: bold;
+            border-radius: 50px;
+            font-size: 1.2rem;
+            transition: background-color 0.3s ease;
         }
 
         .rsvp a:hover {
@@ -63,7 +65,7 @@
         }
 
         footer {
-            margin-top: 50px;
+            margin-top: 40px;
             font-size: 0.9rem;
             color: #777;
         }
@@ -71,25 +73,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+KR&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="invitation">
+    <div class="container">
         <h1>우리의 결혼식에 초대합니다</h1>
-
-        <div class="couple-names">
-            <p><strong>유제욱</strong> & <strong>김유주</strong></p>
+        <p class="couple"><strong>김철수</strong> & <strong>박영희</strong></p>
+        <div class="details">
+            <p>날짜: 2024년 12월 14일</p>
+            <p>시간: 오후 3시</p>
+            <p>장소: 서울특별시 강남구 웨딩홀</p>
         </div>
-
-        <div class="wedding-details">
-            <span>날짜: 2025년 05월 10일 (토요일)</span>
-            <span>시간: 오후 12시반</span>
-            <span>장소: 판교 W컨벤션센터</span>
-        </div>
-
         <div class="rsvp">
             <a href="#">RSVP 하러 가기</a>
         </div>
-
         <footer>
-            © 2024 유제욱& 김유주의 결혼식. 모두 환영합니다!
+            © 2024 김철수 & 박영희의 결혼식. 모두 환영합니다!
         </footer>
     </div>
 </body>
