@@ -22,7 +22,7 @@ title: 청첩장
 email: jaewook517@naver.com
 description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://{yujewook.github.io.weddingInvitation}.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://https://yujewook.github.io/weddingInvitation/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: 
 github_username: yujewook 
 
