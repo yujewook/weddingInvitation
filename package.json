@@ -1,0 +1,20 @@
+{
+    "name": "wedding-invitation",
+    "version": "1.0.0",
+    "description": "Wedding Invitation Website for Jewook and Yuju",
+    "main": "index.html",
+    "scripts": {
+      "start": "parcel index.html",
+      "build": "parcel build index.html --public-url ./",
+      "predeploy": "npm run build",
+      "deploy": "gh-pages -d dist"
+    },
+    "author": "Yujewook",
+    "license": "MIT",
+    "dependencies": {
+      "parcel-bundler": "^1.12.5"
+    },
+    "devDependencies": {
+      "gh-pages": "^4.0.0"
+    }
+  }
