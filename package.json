@@ -4,17 +4,17 @@
     "description": "Wedding Invitation Website for Jewook and Yuju",
     "main": "index.html",
     "scripts": {
-      "start": "parcel index.html",
-      "build": "parcel build index.html --public-url ./",
-      "predeploy": "npm run build",
-      "deploy": "gh-pages -d dist"
+        "start": "parcel index.html",
+        "build": "parcel build index.html --public-url ./",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d dist"
     },
     "author": "Yujewook",
     "license": "MIT",
     "dependencies": {
-      "parcel-bundler": "^1.12.5"
+        "parcel-bundler": "^1.12.5"
     },
     "devDependencies": {
-      "gh-pages": "^4.0.0"
+        "gh-pages": "^4.0.0"
     }
-  }
+}
